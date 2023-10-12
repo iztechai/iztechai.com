@@ -26,7 +26,6 @@ const MemberCount = () => {
       setLoading(false);
     }, 5000);
     return () => clearInterval(id);
-    gs;
   }, []);
 
   return (
