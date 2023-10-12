@@ -24,7 +24,7 @@ const MemberCount = () => {
       const members = await fetchMemberCount();
       setMemberCount(members);
       setLoading(false);
-    }, 5000);
+    }, 15000);
     return () => clearInterval(id);
   }, []);
 
