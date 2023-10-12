@@ -15,7 +15,12 @@ module.exports = {
         youtube: '#FF0000',
       },
       fontFamily: {
-        sans: ['InterVariable', 'Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter Variable', 'Inter', ...defaultTheme.fontFamily.sans],
+        heading: [
+          'Montserrat Variable',
+          'Montserrat',
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
     },
   },

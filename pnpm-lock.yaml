@@ -17,6 +17,9 @@ dependencies:
   '@fontsource-variable/inter':
     specifier: ^5.0.13
     version: 5.0.13
+  '@fontsource-variable/montserrat':
+    specifier: ^5.0.14
+    version: 5.0.14
   '@types/react':
     specifier: ^18.0.21
     version: 18.2.28
@@ -809,6 +812,10 @@ packages:
 
   /@fontsource-variable/inter@5.0.13:
     resolution: {integrity: sha512-mb2WyZ2rHeqIG8aqGJIvLBOmo4sg2x7SHlsE6PUhwxbOicVzO59EZwSGtzNO3FmchuDPFVAxzcXYcR5B6jE6Qw==}
+    dev: false
+
+  /@fontsource-variable/montserrat@5.0.14:
+    resolution: {integrity: sha512-OQzydsAhI7MBPB59HxzwHGpdJAZVONTgkGW+NWA98iRNDaUbR1HyEuD9ptxkjwr3egslLKV5/eJN4+22G3kl6A==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
