@@ -1,10 +1,12 @@
 ---
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
 import { SEOMetadata } from 'astro-seo-metadata';
 
 import siteConfig from '@/../site.config';
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
   index?: boolean;
 }
@@ -44,7 +46,16 @@ const { title, description, index = !siteConfig.disableIndexing } = Astro.props;
       content={index ? 'index, follow' : 'noindex, nofollow'}
     />
   </head>
-  <body>
+  <body
+    class='antialiased bg-background text-foreground/80 min-h-[100svh] flex flex-col px-4 sm:px-0 justify-between items-center'
+  >
+    <Header />
     <slot />
+    <Footer />
+    <!-- <style is:global>
+      * {
+        outline: 2px solid white;
+      }
+    </style> -->
   </body>
 </html>
