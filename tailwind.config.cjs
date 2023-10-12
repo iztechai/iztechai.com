@@ -13,6 +13,7 @@ module.exports = {
         blurple: '#5865F2',
         linkedin: '#0077B5',
         youtube: '#FF0000',
+        whatsapp: '#25d366',
       },
       fontFamily: {
         sans: ['Inter Variable', 'Inter', ...defaultTheme.fontFamily.sans],
