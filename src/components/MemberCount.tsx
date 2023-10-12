@@ -23,10 +23,10 @@ const MemberCount = () => {
     const id = setInterval(async () => {
       const members = await fetchMemberCount();
       setMemberCount(members);
-      console.log('ran');
       setLoading(false);
     }, 5000);
     return () => clearInterval(id);
+    gs;
   }, []);
 
   return (
