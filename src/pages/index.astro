@@ -2,6 +2,7 @@
 import Layout from '@/layouts/Layout.astro';
 import JoinCTA from '@/components/JoinCTA.astro';
 import Socials from '@/components/Socials.astro';
+import MemberCount from '@/components/MemberCount.tsx';
 ---
 
 <Layout>
@@ -57,5 +58,6 @@ import Socials from '@/components/Socials.astro';
       </p>
     </div>
     <Socials />
+    <MemberCount client:load />
   </main>
 </Layout>
