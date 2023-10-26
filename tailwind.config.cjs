@@ -23,6 +23,9 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ],
       },
+      dropShadow: {
+        glow: ['0 0px 15px rgba(222, 229, 229, 0.85)'],
+      },
     },
   },
   plugins: [],
