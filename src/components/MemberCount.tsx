@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const fetchMemberCount = async () => {
   try {
     const webhookURL =
-      'https://n8n.dash.ardasevinc.xyz/webhook/2b4b3123-da13-4d8e-b27d-8eea561f5347';
+      'https://n8n.ardasevinc.xyz/webhook/2b4b3123-da13-4d8e-b27d-8eea561f5347';
     const webhookResponse = await fetch(webhookURL, {
       method: 'GET',
     }).then((res) => res.json());
